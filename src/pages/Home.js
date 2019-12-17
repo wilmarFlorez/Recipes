@@ -30,6 +30,7 @@ export default class Home extends React.Component {
         <title>Recetas</title>
       </Helmet>
 
+
       <div className="recipes">
         { recipes && recipes.map((recipe) => (
           <Link to={`/recipe/${recipe.id}`} className="recipe" key={recipe.id}>
