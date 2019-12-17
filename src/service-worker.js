@@ -15,6 +15,8 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {})
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/index.html"))
 
+workbox.googleAnalytics.initialize()
+
 workbox.routing.registerRoute(/^https?:\/\/www.themealdb.com\/api\/.*/,
     new workbox.strategies.StaleWhileRevalidate(), 'GET')
 
