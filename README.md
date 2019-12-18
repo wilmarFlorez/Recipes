@@ -11,7 +11,7 @@ Some of the features it has are:
 * Web Share API
 * Notifications
 
-[see the app] (https://platzi-pwa.now.sh)
+[See the app on production] (https://recipes.wflorez52.now.sh/)
 
 ## Scripts
 
